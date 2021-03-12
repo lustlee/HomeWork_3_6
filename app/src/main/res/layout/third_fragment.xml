@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <ImageView
+        android:id="@+id/img"
+        android:src="@drawable/japan_art"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Japan Art"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginTop="420dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:src="@drawable/japan_art2"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginStart="120dp"
+        />
+
+
+</FrameLayout>
