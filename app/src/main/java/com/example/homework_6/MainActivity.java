@@ -17,16 +17,15 @@ public class MainActivity extends AppCompatActivity {
         tabLayout = findViewById(R.id.tablayout);
         viewPager = findViewById(R.id.view_pager);
 
-
         setViewPager(viewPager);
         tabLayout.setupWithViewPager(viewPager);
 
     }
     private void setViewPager(ViewPager viewPager){
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new FirstFragment(), "TITLES");
-        adapter.addFragment(new SecondFragment(), "NUMBERS");
-        adapter.addFragment(new ThirdFragment(), "IMAGE");
+        adapter.addFragment(new FirstFragment(), "Names");
+        adapter.addFragment(new SecondFragment(), "Numbers");
+        adapter.addFragment(new ThirdFragment(), "Images");
         viewPager.setAdapter(adapter);
     }
 }
